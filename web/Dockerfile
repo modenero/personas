@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:16
 
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
@@ -12,4 +12,4 @@ RUN yarn run build
 
 EXPOSE 3000
 
-CMD ["node", ".output/server/index.mjs"]
+CMD [ "yarn", "start" ]
