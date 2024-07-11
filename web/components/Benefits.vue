@@ -19,7 +19,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="overflow-hidden bg-white py-24 sm:py-32">
+    <main class="overflow-hidden bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div class="lg:pr-8 lg:pt-4">
@@ -76,6 +76,5 @@ const props = defineProps({
                 />
             </div>
         </div>
-    </div>
-
+    </main>
 </template>
