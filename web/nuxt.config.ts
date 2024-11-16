@@ -17,27 +17,27 @@ export default defineNuxtConfig({
     },
 
     /* Progressive Web Application Settings */
-    pwa: {
-        manifest: {
-            name: 'Personas',
-            short_name: 'Nexa Studio',
-            description: `Start your next JavaScript project using Personas boilerplate templates.`,
-            lang: 'en',
-            theme_color: '#518c96',
-            background_color: '#518c96',
-            // useWebmanifestExtension: false,
-        },
-        meta: {
-            name: 'Personas',
-            description: `Start your next JavaScript project using Personas boilerplate templates.`,
-            author: `Nexa contributors`,
-        },
-        // icon: false, // disables the icon module
-        workbox: {
-            // workboxURL: 'TBD',
-            // enabled: true, // FOR DEV PURPOSES ONLY
-        },
-    },
+    // pwa: {
+    //     manifest: {
+    //         name: 'Personas',
+    //         short_name: 'Nexa Studio',
+    //         description: `Start your next JavaScript project using Personas boilerplate templates.`,
+    //         lang: 'en',
+    //         theme_color: '#518c96',
+    //         background_color: '#518c96',
+    //         // useWebmanifestExtension: false,
+    //     },
+    //     meta: {
+    //         name: 'Personas',
+    //         description: `Start your next JavaScript project using Personas boilerplate templates.`,
+    //         author: `Nexa contributors`,
+    //     },
+    //     // icon: false, // disables the icon module
+    //     workbox: {
+    //         // workboxURL: 'TBD',
+    //         // enabled: true, // FOR DEV PURPOSES ONLY
+    //     },
+    // },
 
     /* Application Modules */
     modules: [
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
 
         /* Internationalization for Nuxt */
-        '@nuxtjs/i18n',
+        // '@nuxtjs/i18n',
 
         /* Progressive Web Application */
         // '@kevinmarrec/nuxt-pwa',
